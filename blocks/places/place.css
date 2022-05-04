@@ -1,0 +1,48 @@
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1280px) {
+    .place {
+        margin-bottom: 73px;
+        margin: 0 148px;
+        max-width: 100%;
+        gap: 48px 40px; 
+    }
+}
+@media screen and (max-width: 1279px){
+    .place {
+        margin-bottom: 73px;
+        margin: 0 48px;
+        max-width: 100%;
+        gap: 48px 32px; 
+    }
+}
+@media screen and (max-width: 1023px){
+    .place {
+        margin-bottom: 73px;
+        margin: 0 24px;
+        max-width: 100%;
+        gap: 48px 28px;    
+    }
+}
+@media screen and (max-width: 767px){
+    .place {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 73px;
+        margin: 0;
+        max-width: 100%;
+        row-gap: 32px;
+    } 
+}
+@media screen and (max-width: 319px){
+    .place {
+        max-width: 100%;
+    } 
+}

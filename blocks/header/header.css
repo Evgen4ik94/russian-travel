@@ -1,9 +1,38 @@
 .header {
-    margin: 28px 48px 0 48px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    top: 28px;
-    left: 48px;
-    min-height: 52px;
+    margin: auto;
+    width: 100%;
+    min-height: min-content;
+}
+@media screen and (min-width: 1280px) {
+    .header {
+        width: 100%;
+        max-width: calc(100% - 96px);
+    }    
+}
+@media screen and (max-width: 1279px) {
+    .header {
+        width: 100%;
+        max-width: calc(100% - 96px);
+    }
+}
+@media screen and (max-width: 1023px) {
+    .header {
+        width: 100%;
+        max-width: calc(100% - 48px);
+    }
+}
+@media screen and (max-width: 767px) {
+    .header {
+        width: 100%;
+        max-width: calc(100% - 32px);
+    }
+}
+@media screen and (max-width: 319px) {
+    .header {
+        width: 100%;
+        max-width: calc(100% - 16px);
+    }
 }
