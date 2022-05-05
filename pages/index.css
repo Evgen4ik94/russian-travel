@@ -1,5 +1,5 @@
 @import url('../vendor/normalize.css'); /*Внешние стили*/
-@import url('/vendor/fonts/fonts.css'); /*Шрифт Inter*/
+@import url('../vendor/fonts/fonts.css'); /*Шрифты*/
 /*ШАПКА*/
 @import url('../blocks/page/page.css'); /*Стили страницы*/
 @import url('../blocks/page/__wrapper/page__wrapper.css'); /*Стили страницы*/
@@ -20,6 +20,7 @@
 @import url('../blocks/intro/__title/intro__title.css'); /*Стили intro__title*/
 @import url('../blocks/intro/__text/intro__text.css'); /*Стили intro__text*/
 @import url('../blocks/intro/__list/intro__list.css'); /*Стили intro__list*/
+@import url('../blocks/intro/__list/intro__list-item.css'); /*Стили intro__list*/
 @import url('../blocks/intro/__span-accent/intro__span-accent.css'); /*Стили intro__list*/
 
 /*БЛОК PHOTO-GRID*/
