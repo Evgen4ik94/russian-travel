@@ -1,6 +1,7 @@
 .place {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     margin-bottom: 80px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -8,41 +9,30 @@
 }
 @media screen and (min-width: 1280px) {
     .place {
-        margin: 0 148px;
         margin-bottom: 80px;
-        max-width: 100%;
+        max-width: calc(100% - 296px);
         gap: 48px 40px; 
     }
 }
 @media screen and (max-width: 1279px){
     .place {
-        margin: 0 48px;
         margin-bottom: 80px;
-        max-width: 100%;
+        max-width: calc(100% - 96px);
         gap: 48px 32px; 
     }
 }
 @media screen and (max-width: 1023px){
     .place {
-        margin: 0 24px;
         margin-bottom: 73px;
-        max-width: 100%;
+        max-width: calc(100% - 48px);
         gap: 48px 28px;    
     }
 }
 @media screen and (max-width: 767px){
     .place {
-        display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        margin: 0;
         margin-bottom: 50px;
-        max-width: 100%;
         row-gap: 32px;
-    } 
-}
-@media screen and (max-width: 319px){
-    .place {
-        max-width: 100%;
     } 
 }
