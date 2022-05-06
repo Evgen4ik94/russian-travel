@@ -1,32 +1,5 @@
 .page__wrapper {
-    width: 100%;
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 28px;
-}
-@media screen and (min-width: 1280px) {
-    .page__wrapper {
-        width: 100%;
-        margin-top: 28px;
-    }    
-}
-@media screen and (max-width: 1279px) {
-    .page__wrapper {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1023px) {
-    .page__wrapper {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 767px) {
-    .page__wrapper {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 319px) {
-    .page__wrapper {
-        width: 100%;
-    }
 }

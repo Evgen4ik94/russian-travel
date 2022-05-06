@@ -7,11 +7,13 @@
 @import url('../blocks/header/__logo/header__logo.css'); /*Стили лого шапки*/
 @import url('../blocks/header/__lang-links/header__lang-links.css'); /*Стили ссылок в шапке*/
 @import url('../blocks/header/__lang-link/header__lang-link.css'); /*Стили ссылок в шапке*/
+@import url('../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css'); /*Стили ссылок в шапке*/
 
 /*БЛОК LEAD*/
 @import url('../blocks/lead/lead.css'); /*Стили блока lead*/
 @import url('../blocks/lead/__title/lead__title.css'); /*Стили заголовка блока lead*/
 @import url('../blocks/lead/__subtitle/lead__subtitle.css'); /*Стили подзаголовка блока lead*/
+@import url('../blocks/lead/__figure/lead__figure.css'); /*Стили подзаголовка блока lead*/
 @import url('../blocks/lead/__image/lead__image.css'); /*Стили элемента __image*/
 @import url('../blocks/lead/__caption/lead__caption.css'); /*Стили элемента __caption*/
 
@@ -41,10 +43,9 @@
 
 /*БЛОК COVER*/
 @import url('../blocks/cover/cover.css'); /*Стили блока cover*/
-@import url('../blocks/cover/__background/cover__background.css'); /*Стили фона блока cover*/
 @import url('../blocks/cover/__overlay/cover__overlay.css'); /*Стили маски блока cover*/
 @import url('../blocks/cover/__title/cover__title.css'); /*Стили заголовка блока cover*/
-@import url('../blocks/cover/__title/cover__title-link.css'); /*Стили заголовка блока cover*/
+@import url('../blocks/cover/__link/cover__link.css'); /*Стили заголовка блока cover*/
 @import url('../blocks/cover/__subtitle/cover__subtitle.css'); /*Стили подзаголовка блока cover*/
 
 
