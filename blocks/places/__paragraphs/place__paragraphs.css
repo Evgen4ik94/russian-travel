@@ -24,8 +24,3 @@
         margin: 0 16px;    
     } 
 }
-@media screen and (max-width: 319px){
-    .place__paragraphs {
-        max-width: fit-content;
-    } 
-}
