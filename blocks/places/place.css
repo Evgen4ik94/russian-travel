@@ -9,14 +9,12 @@
 }
 @media screen and (min-width: 1280px) {
     .place {
-        margin-bottom: 80px;
         max-width: calc(100% - 296px);
         gap: 48px 40px; 
     }
 }
 @media screen and (max-width: 1279px){
     .place {
-        margin-bottom: 80px;
         max-width: calc(100% - 96px);
         gap: 48px 32px; 
     }
