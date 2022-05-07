@@ -1,6 +1,7 @@
 .place {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto;
     padding: 0 148px;
     gap: 48px 40px;

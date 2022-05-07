@@ -6,7 +6,7 @@
     text-decoration-line: underline;
     margin-top: 12px;
     color: #fff;
-    width: fit-content;
+    max-width: 100%;
 }
 .place__website-link:hover {
     opacity: 0.8;

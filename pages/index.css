@@ -56,6 +56,3 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css'); /*Стили Автора*/
 
 
-.page, div, .header, a, h1, h2, h3, section, p, article, img, ul, footer{
-    outline: solid;
-}
