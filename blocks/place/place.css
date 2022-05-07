@@ -2,33 +2,36 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-bottom: 80px;
     padding: 0 148px;
     gap: 48px 40px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+}
+.place:last-child {
+    padding-bottom: 92px;
 }
 @media screen and (max-width: 1279px){
     .place {
-        padding: 0 96px;
+        padding: 0 48px;
         gap: 48px 32px; 
     }
 }
 @media screen and (max-width: 1023px){
     .place {
-        margin-bottom: 73px;
-        padding: 0 48px;
+        padding: 0 24px;
         gap: 48px 28px;    
+    }
+    .place:last-child {
+        padding-bottom: 90px;
     }
 }
 @media screen and (max-width: 767px){
     .place {
-        max-width: 100%;
-        margin: 0;
+        padding: 0;
+        width: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
-        margin-bottom: 50px;
         row-gap: 32px;
     } 
+    .place:last-child {
+        padding-bottom: 66px;
+    }
 }
